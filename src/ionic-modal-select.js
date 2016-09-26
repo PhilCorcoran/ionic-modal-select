@@ -58,7 +58,7 @@ function modalSelect($ionicModal, $timeout, $filter, $parse, $templateCache ) {
 				searchFilters: "=searchFilters",
 				searchProperties:'=',
 				onSelect: "&",
-				onSearch: "&",
+				onSearch: "=",
 				onReset: "&",
 				onClose: "&",
 			},
